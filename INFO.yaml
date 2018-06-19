@@ -1,0 +1,49 @@
+---
+project: 'Reference platform design for edge cloud in OPNFV'
+project_creation_date: ''
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &opnfv_edgecloud_ptl
+    name: 'Qiao Fu'
+    email: 'fuqiao@chinamobile.com'
+    id: 'fuqiao'
+    company: 'China Mobile'
+    timezone: 'Unknown'
+primary_contact: *opnfv_edgecloud_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opnfv.org/projects/edgecloud'
+    key: 'EDGECLOUD'
+mailing_list:
+    type: 'mailman2'
+    url: 'opnfv-tech-discuss@lists.opnfv.org'
+    tag: '[edgecloud]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.opnfv.org/display/'
+      url: 'https://global.gotomeeting.com/join/819733085'
+      server: 'freenode.net'
+      channel: '#opnfv-meeting'
+      repeats: 'weekly'
+      time: ''
+repositories:
+    - 'edgecloud'
+committers:
+    #  This will be filled out by opnfv staff once invitation have been accepted
+    - <<: *opnfv_edgecloud_ptl
+    - name: ''
+      email: ''
+      company: ''
+      id: ''
+      timezone: ''
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'http://ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/'
+    changes:
+        - type: 'removal/promotion'
+          name: ''
+          link: ''
