@@ -165,15 +165,6 @@ but basic functions such as VM lifecycle management and automatic network
 management should be persisted.
 
 Remote provisioning
-====================
-
-As there is no professional maintenance staff at edge, remote provisioning
-should be provided so that virtual resources of distributed edge sites
-can obtain unified orchestration and maintenance. Orchestrator together
-with OSS/BSS, EMS and VNFM should be deployed remotely in some central offices
-to reduce the difficulty and cost of management as well as increasing edge
-resource utilization ratio. Multi region OpenStack could be considered as
-one of the VIM solution.
 
 Resource diversity
 ==================
@@ -199,10 +190,6 @@ Related project about acceleration: https://wiki.openstack.org/wiki/Cyborg
 Edge Sites Conditions/ Deployment Scenarios
 ===========================================
 
-.. 
-  Editors note: Any comments to this section should be added to https://gerrit.opnfv.org/gerrit/#/c/58959
-  and not to this other reviews.
-
 Latency and distance to customer are taken as two main characters to separate
 different sites. The following figure shows three different sites.
 
@@ -210,16 +197,11 @@ different sites. The following figure shows three different sites.
   :alt: Edge Sites Structure
   :align: center
 
-
 Small Edge
 ==========
-
-- Distance to base station: around 10km, closest site to end users / base station
-
-- E2E delay(from UE to site): around 2ms
-
+- Distance to base station: around 10 km, closest site to end users / base station
+- E2E delay(from UE to site): around 2 ms
 - Maximum bandwidth can provide: 50 GB/s
-
 - Minimum hardware specs: 1 unit of
 
   - 4 cores (two ARM or Xeon-D processors)
@@ -232,141 +214,86 @@ Small Edge
   - 64 GB RAM
   - 1 * 1 TB storage
 
-- Power for a site: < 10KW
-
+- Power for a site: < 10 kW
 - Physical access of maintainer: Rare, maintenance staff may only show up in
   this kind of site when machines initialize for the first time or a machine
   is down
-
 - Physical security: none (Optionally secure booting is needed)
-
 - Expected frequency of updates to hardware: 3-4 year refresh cycle
-
 - Expected frequency of updates to firmware: 6-12 months
-
 - Expected frequency of updates to control systems (e.g. OpenStack or
-  Kubernetes controllers): ~ 12 - 24 months, has to be possible from
-  remote management
-
-- Physical size: Not all the sites will have 36 depth capability. Some sites
-  might be limited to 12 depth.
-
-- Number of edge cloud instances: depends on demands (3000+)
-
+  Kubernetes controllers): ~ 12 - 24 months, has to be possible from remote
+  management
+- Physical size: Not all the sites will have 36 inch depth capability. Some sites
+  might be limited to 12 inch depth.
+- Number of instances: depends on demands (3000+)
 - Services might be deployed here: MEC, or other services which have strict
   requirements on latency. Services deployed in this kind of sites have huge
   regional deference
-
 - Remote network connection reliability: No 100% uptime and variable
   connectivity expected.
-
-- Orchestration: no orchestration component. MANO deployed in core site
-  provide remote orchestration
-
-- Degree of virtualization: it is possible that no virtualization
-  technology would be used in small edge site if virtualization
-  increases structure/network complexity, reduce service performance,
-  or cost more resources. Bare-metal is common in small edge sites.
-  Container would also be a future choice if virtualization was needed
-
-- Storage: mainly consider local storage. Distributed storage would be
-  used depending on services’ needs and site conditions.
+- Orchestration: no orchestration component. MANO deployed in core site provide
+  remote orchestration
+- Degree of virtualization: it is possible that no virtualization technology would
+  be used in small edge site if virtualization increases structure/network complexity,
+  reduces service performance, or costs more resources. Bare-metal is common in small
+  edge sites. Container would also be a future choice if virtualization was needed
+- Storage: mainly local storage.
 
 Medium Edge
 ===========
 - Distance to base station: around 50 km
-
-- E2E delay (from UE to site): less than 2.5ms
-
+- E2E delay (from UE to site): less than 2.5 ms
 - Maximum bandwidth can provide: 100 GB/s
-
-- Minimum hardware specs: 2 RU
-
-- Maximum hardware specs: 20 RU
-
+- Minimum hardware specs: 2 Rack Unit (RU)
+- Maximum hardware specs: 20 Rack Unit
 - Power for a site: 10 - 20 10 kW
-
 - Physical access of maintainer: Rare
-
-- Physical security: Medium, probably not in a secure data center,
-  probably in a semi-physically secure environment; each device has some
-  authentication (such as certificate) to verify it's a legitimate
-  piece of hardware deployed by operator; network access is all
-  through security enhanced methods (vpn, connected back to dmz);
-  VPN itself is not considered secure, so other mechanism such
-  as https should be employed as well)
-
+- Physical security: Medium, probably not in a secure data center, probably in
+  a semi-physically secure; each device has some authentication (such as
+  certificate) to verify it's a legitimate piece of hardware deployed by
+  operator; network access is all through security enhanced methods (vpn,
+  connected back to dmz); VPN itself is not considered secure, so other
+  mechanism such as https should be employed as well)
 - Expected frequency of updates to hardware: 5-7 years
-
-- Expected frequency of updates to firmware: Never unless required to
-  fix blocker/critical bug(s)
-
-- Expected frequency of updates to control systems (e.g. OpenStack or
-  Kubernetes controllers): 12 - 24 months
-
+- Expected frequency of updates to firmware: Never unless required to fix blocker/critical bug(s)
+- Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes controllers): 12 - 24 months
 - Physical size: TBD
-
-- Number of edge cloud instances: 3000+
-
+- Number of instances: 3000+
 - Services might be deployed here: MEC, RAN, CPE, etc.
-
-- Remote network connection reliability: 24/7 (high uptime but connectivity
-  is variable), 100% uptime expected
-
+- Remote network connection reliability: 24/24 (high uptime but connectivity is
+  variable), 100% uptime expected
 - Orchestration: no orchestration component. MANO deployed in core site
   provide remote orchestration.
-
 - Degree of virtualization: depends on site conditions and service requirements.
   VM, container may form hybrid virtualization layer. Bare-metal is possible in
   middle sites
-
-- Storage: local storage and distributed storage, which depends on site
-  conditions and services’ needs
-
+- Storage: local storage and distributed storage, which depends on site conditions
+  and services’ needs
 
 Large Edge
 ==========
-- Distance to base station: 100*x km (0.8<x<3)
-
-- E2E delay: around 4ms
-
+- Distance to base station: 100 x km (0.8<x<3)
+- E2E delay: around 4 ms
 - Maximum bandwidth can provide: 200 GB/s
-
 - Minimum hardware specs: N/A
-
 - Maximum hardware specs: 100+ servers
-
 - Power for a site: 20 - 90 kW
-
-- Physical access of maintainer: professional maintainer will monitor the
-  site
-
+- Physical access of maintainer: professional maintainer will monitor the site
 - Physical security: High
-
 - Expected frequency of updates to hardware: 36 month
-
-- Expected frequency of updates to firmware: Never unless required to fix
-  blocker/critical bug(s)
-
-- Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes
-  controllers): 12 - 24 months
-
+- Expected frequency of updates to firmware: Never unless required to fix blocker/critical bug(s)
+- Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes controllers): 12 - 24 months
 - Physical size: same as a normal DC
-
-- Number of edge cloud instances: 600+
-
+- Number of instances: 3000+
 - Services might be deployed here: CDN, SAE-GW, UPF, CPE and etc., which have
-  large bandwidth requirements and relatively small latency requirements
-
+  large bandwidth requirements and relatively low latency requirements
 - Remote network connection reliability: reliable and stable
-
 - Orchestration: no orchestration component. MANO deployed in core site provide
   remote orchestration
-
 - Degree of virtualization: almost completely virtualized in the form of VMs
-  (if take CDN into consideration, which may not be virtualized, the
-  virtualization degree would decrease in sites with CDN deployment)
-
+  (if take CDN into consideration, which may not be virtualized, the virtualization
+  degree would decrease in sites with CDN deployment)
 - Storage: distributed storage
 
 ==============
