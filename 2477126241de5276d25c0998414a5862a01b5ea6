@@ -117,6 +117,30 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_58721d7d",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2034
+      },
+      "writtenOn": "2018-06-26T13:31:08Z",
+      "side": 1,
+      "message": "This does bring up the point of what is going to manage the K8s nodes.  Having a full blown OpenStack controller is resource intensive, and OpenStack currently has issues running the controller remotely.  Is the scope of OPNFV going to include non-OpenStack based control?",
+      "parentUuid": "da5c1566_157d106f",
+      "range": {
+        "startLine": 75,
+        "startChar": 203,
+        "endLine": 75,
+        "endChar": 214
+      },
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_f5817c4b",
         "filename": "requirement/Edge Cloud Requirements.rst",
         "patchSetId": 1
@@ -140,6 +164,23 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_386f6994",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 2034
+      },
+      "writtenOn": "2018-06-26T13:31:08Z",
+      "side": 1,
+      "message": "The edge equipment might also be ARM based, with x86_64 at a control site.  Is this something that is going to be included in scope?",
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_95900097",
         "filename": "requirement/Edge Cloud Requirements.rst",
         "patchSetId": 1
@@ -157,6 +198,23 @@
         "endLine": 92,
         "endChar": 46
       },
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_58f97dc7",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 2034
+      },
+      "writtenOn": "2018-06-26T13:31:08Z",
+      "side": 1,
+      "message": "Environmental factors (temp, vibration, etc) must also be taken into account.  There are custom enclosures that provide environmental controls so that non-customized servers can be used.  This is definitely a cost tradeoff.",
       "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
