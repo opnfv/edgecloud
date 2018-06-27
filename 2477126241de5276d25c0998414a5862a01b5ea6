@@ -181,6 +181,24 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_8900e5ab",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1681
+      },
+      "writtenOn": "2018-06-27T15:16:54Z",
+      "side": 1,
+      "message": "Yes, It\u0027s an interesting part! I know that OpenStack Edge working group include that in Deployment scenarios section / hardware specs (ARM or Xeon-D processors) - https://wiki.openstack.org/wiki/OpenStack_Edge_Discussions_Dublin_PTG#Deployment_Scenarios",
+      "parentUuid": "da5c1566_386f6994",
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_95900097",
         "filename": "requirement/Edge Cloud Requirements.rst",
         "patchSetId": 1
