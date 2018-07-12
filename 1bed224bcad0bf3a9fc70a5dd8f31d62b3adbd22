@@ -186,6 +186,30 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_4ccb68a5",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T13:56:18Z",
+      "side": 1,
+      "message": "The change implementing the merge is this: https://gerrit.opnfv.org/gerrit/#/c/59763/",
+      "parentUuid": "da5c1566_58832704",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 43
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_987c9f22",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 4
