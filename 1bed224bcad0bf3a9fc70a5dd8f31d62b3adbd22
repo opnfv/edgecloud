@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da5c1566_98e77f12",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "ETSI NFV MANO components or edge cloud infrastructure components\n\nNFV components includes the VNF-s also. \nedge cloud infrastructure components is maybe a bit even more generic.",
+      "range": {
+        "startLine": 12,
+        "startChar": 25,
+        "endLine": 12,
+        "endChar": 39
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_d8f1f7ce",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "We should also explain what is BBU.",
+      "range": {
+        "startLine": 46,
+        "startChar": 12,
+        "endLine": 46,
+        "endChar": 15
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_98ce5f82",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "Is is open what kind of acceleration technology should be used. \n\nI even suppose, that this will be different in different deployments.",
+      "range": {
+        "startLine": 58,
+        "startChar": 28,
+        "endLine": 58,
+        "endChar": 94
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_18a24fae",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "Maybe we should have a Glossary somewhere ;)",
+      "range": {
+        "startLine": 62,
+        "startChar": 14,
+        "endLine": 62,
+        "endChar": 42
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_f8a67bc0",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "I still believe that we should consider Kubernetes as a VIM here. \n\nHow about \"(e.g.: OpenStack or Kubernetes)\"?",
+      "range": {
+        "startLine": 125,
+        "startChar": 49,
+        "endLine": 125,
+        "endChar": 58
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_58acc7a0",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "We argeed in [1] to remove this. \n\n[1]: https://gerrit.opnfv.org/gerrit/#/c/58959/1/requirement/Edge+Cloud+Requirements.rst",
+      "range": {
+        "startLine": 134,
+        "startChar": 46,
+        "endLine": 134,
+        "endChar": 75
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_f88ddb32",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "The used VIM",
+      "range": {
+        "startLine": 155,
+        "startChar": 43,
+        "endLine": 155,
+        "endChar": 52
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_58832704",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "We decided to merge the Edge Computing Group and the OPNFV Edge Cloud definitions in this document [1].\n\nFor Small and Medium the OpenStack Edge Coputing Group Dublin definitions [2] will be used while for Large the current definition will be used.\n\n[1]: http://eavesdrop.openstack.org/meetings/weekly_edge_computing_group_call/2018/weekly_edge_computing_group_call.2018-07-10-14.03.html \n[2]: https://wiki.openstack.org/w/index.php?title\u003dOpenStack_Edge_Discussions_Dublin_PTG#Deployment_Scenarios",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 43
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_987c9f22",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-12T09:36:21Z",
+      "side": 1,
+      "message": "Copying Marks comment from [1]\n\"Environmental factors (temp, vibration, etc) must also be taken into account. There are custom enclosures that provide environmental controls so that non-customized servers can be used. This is definitely a cost tradeoff.\"\n\n[1]: https://gerrit.opnfv.org/gerrit/#/c/58959/1/requirement/Edge+Cloud+Requirements.rst",
+      "range": {
+        "startLine": 286,
+        "startChar": 14,
+        "endLine": 286,
+        "endChar": 17
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
