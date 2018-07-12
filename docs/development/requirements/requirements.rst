@@ -167,100 +167,108 @@ Latency and distance to customer are taken as two main characters to separate
 different sites. The following figure shows three different sites.
 
 .. figure:: images/SitesPlot.png
-	:alt: Edge Sites Structure
-	:align: center
+  :alt: Edge Sites Structure
+  :align: center
 
 Small Edge
 ==========
 
-- Distance to base station: less than 10km, closest site to end users/ base station
+- Distance to base station: around 10km, closest site to end users / base station
+- E2E delay(from UE to site): around 2ms
+- Maximum bandwidth can provide: 50 GB/s
+- Minimum hardware specs: 1 unit of
 
-- **E2E delay: around 2ms**
+  - 4 cores (two ARM or Xeon-D processors)
+  - 8 GB RAM (4 DIMM)
+  - 1 * 240 GB SSD (2 * 2.5)
 
-- Maximum bandwidth can provide: 50G
+- Maximum hardware specs: 1 unit of
 
-- Minimum server number: 1
-
-- Maximum server number: 20
+  - 16 cores
+  - 64 GB RAM
+  - 1 * 1 TB storage
 
 - Power for a site: < 10KW
-
+- Physical access of maintainer: Rare, maintenance staff may only show up in
+  this kind of site when machines initialize for the first time or a machine
+  is down
+- Physical security: none (Optionally secure booting is needed)
+- Expected frequency of updates to hardware: 3-4 year refresh cycle
+- Expected frequency of updates to firmware: 6-12 months
+- Expected frequency of updates to control systems (e.g. OpenStack or
+  Kubernetes controllers): ~ 12 - 24 months, has to be possible from remote
+  management
+- Physical size: Not all the sites will have 36 depth capability. Some sites
+  might be limited to 12 depth.
+- Number of instances: depends on demands (3000+)
 - Services might be deployed here: MEC, or other services which have strict
   requirements on latency. Services deployed in this kind of sites have huge
   regional deference
-
-- Physical access of maintainer: Rare, maintenance staff may only show up in
-  this kind of site when machines initialize for the first time or a machine down
-
-- Remote network connection reliability: Not 100% reliable or stable
-
+- Remote network connection reliability: No 100% uptime and variable
+  connectivity expected.
 - Orchestration: no orchestration component. MANO deployed in core site provide
   remote orchestration
-
 - Degree of virtualization: it is possible that no virtualization technology would
   be used in small edge site if virtualization increases structure/network complexity,
   reduce service performance, or cost more resources. Bare-metal is common in small
   edge sites. Container would also be a future choice if virtualization was needed
-
 - Storage: mainly consider local storage. Distributed storage would be used depending
   on services’ needs and site conditions.
 
 Medium Edge
 ===========
-
-- **E2E delay: less than 2.5ms**
-
-- **Distance to base station: 10x km (1<x<8)**
-
-- Maximum bandwidth can provide: 100G
-
-- Server number: 20 ~ 100
-
-- Power for a site: 10 KW<power<20 KW
-
-- Services might be deployed here: MEC, RAN, CPE, etc.
-
+- Distance to base station: around 50 km
+- E2E delay (from UE to site): less than 2.5ms
+- Maximum bandwidth can provide: 100 GB/s
+- Minimum hardware specs: 2 RU
+- Maximum hardware specs: 20 RU
+- Power for a site: 10 - 20 10 kW
 - Physical access of maintainer: Rare
-
-- Remote network connection reliability: Not 100% reliable or stable
-
+- Physical security: Medium, probably not in a secure data center, probably in
+  a semi-physically secure; each device has some authentication (such as
+  certificate) to verify it's a legitimate piece of hardware deployed by
+  operator; network access is all through security enhanced methods (vpn,
+  connected back to dmz); VPN itself is not considered secure, so other
+  mechanism such as https should be employed as well)
+- Expected frequency of updates to hardware: 5-7 years
+- Expected frequency of updates to firmware: Never unless required to fix blocker/critical bug(s)
+- Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes controllers): 12 - 24 months
+- Physical size: TBD
+- Number of instances: 3000+
+- Services might be deployed here: MEC, RAN, CPE, etc.
+- Remote network connection reliability: 24/24 (high uptime but connectivity is
+  variable), 100% uptime expected
 - Orchestration: no orchestration component. MANO deployed in core site
   provide remote orchestration.
-
 - Degree of virtualization: depends on site conditions and service requirements.
   VM, container may form hybrid virtualization layer. Bare-metal is possible in
   middle sites
-
 - Storage: local storage and distributed storage, which depends on site conditions
   and services’ needs
 
 Large Edge
 ==========
-
-- E2E delay: around 4ms
-
 - Distance to base station: 100x km (0.8<x<3)
-
-- Maximum bandwidth can provide: 200G
-
-- Server number: 100+
-
-- Power for a site: 10x KW (2<x<9)
-
+- E2E delay: around 4ms
+- Maximum bandwidth can provide: 200 GB/s
+- Minimum hardware specs: N/A
+- Maximum hardware specs: 100+ servers
+- Power for a site: 20 - 90 kW
+- Physical access of maintainer: professional maintainer will monitor the site
+- Physical security: High
+- Expected frequency of updates to hardware: 36 month
+- Expected frequency of updates to firmware: Never unless required to fix blocker/critical bug(s)
+- Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes controllers): 12 - 24 months
+- Physical size: same as a normal DC
+- Number of instances: 3000+
 - Services might be deployed here: CDN, SAE-GW, UPF, CPE and etc., which have
   large bandwidth requirements and relatively small latency requirements
-
-- Physical access of maintainer: professional maintainer will monitor the site
-
 - Remote network connection reliability: reliable and stable
-
 - Orchestration: no orchestration component. MANO deployed in core site provide
   remote orchestration
-
 - Degree of virtualization: almost completely virtualized in the form of VMs
   (if take CDN into consideration, which may not be virtualized, the virtualization
   degree would decrease in sites with CDN deployment)
-
 - Storage: distributed storage
 
 ==============
