@@ -1,0 +1,170 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da5c1566_ecccfc37",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "shall we also expend this definition to the End User side? I think there will be scenarios for a small or even medium edge to deploy directly at the end user site to provide MEC service. Will such scenario be considered in this doc?",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_ac4b24af",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "this is difficult to predict. I guess this number will be related to the extremely low latency MEC services, e.g. auto-driving. If such service will not appear in Telco network, then it is not necessary to have a small site at this levy at all. we can utilize the medium size to deploy MEC.",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_ac74c4fd",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "I guess there probably is no need to define a maximum number for this sight, since DC at this site is in good consider, there will be little if any limitation on space and power. therefore the size will be decided only by how many services we actually want to deploy at this site.",
+      "range": {
+        "startLine": 255,
+        "startChar": 31,
+        "endLine": 255,
+        "endChar": 38
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_0c617039",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "36month, at lease this is the time we are consider for normal DC",
+      "range": {
+        "startLine": 259,
+        "startChar": 45,
+        "endLine": 259,
+        "endChar": 48
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_ec651c46",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "never if there is no need",
+      "range": {
+        "startLine": 260,
+        "startChar": 24,
+        "endLine": 260,
+        "endChar": 31
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_4c5b6887",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "this is not decided yet, but will be around 12 -24 months",
+      "range": {
+        "startLine": 261,
+        "startChar": 35,
+        "endLine": 261,
+        "endChar": 42
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_2c60b431",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "same as normal DC",
+      "range": {
+        "startLine": 262,
+        "startChar": 2,
+        "endLine": 262,
+        "endChar": 10
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_8c546055",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 314
+      },
+      "writtenOn": "2018-07-13T01:21:41Z",
+      "side": 1,
+      "message": "in china mobile, the number will be around 600",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
