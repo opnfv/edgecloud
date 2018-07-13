@@ -72,6 +72,23 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_2fba66de",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1117
+      },
+      "writtenOn": "2018-07-13T14:47:16Z",
+      "side": 1,
+      "message": "What exactly is an RU unit? Could you elaborate? The Small Edge speaks of cores/memory but this seems an inconsistent way to describe.",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ac74c4fd",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
