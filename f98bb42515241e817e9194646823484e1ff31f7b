@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_8c2580c4",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "I think we should what about: \nDistance to base station / end user: 0 - 10 km ?",
+      "parentUuid": "da5c1566_ecccfc37",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ac4b24af",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_6c22acba",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "Yes, it is difficult to predict, but on the other hand we should have some predictions :)",
+      "parentUuid": "da5c1566_ac4b24af",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ac74c4fd",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -47,6 +83,30 @@
       "writtenOn": "2018-07-13T01:21:41Z",
       "side": 1,
       "message": "I guess there probably is no need to define a maximum number for this sight, since DC at this site is in good consider, there will be little if any limitation on space and power. therefore the size will be decided only by how many services we actually want to deploy at this site.",
+      "range": {
+        "startLine": 255,
+        "startChar": 31,
+        "endLine": 255,
+        "endChar": 38
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_ac2cc4ac",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "Should we modify it to \"unlimited\"?",
+      "parentUuid": "da5c1566_ac74c4fd",
       "range": {
         "startLine": 255,
         "startChar": 31,
@@ -82,6 +142,30 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_cc065820",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "I will add this to the next patch.",
+      "parentUuid": "da5c1566_0c617039",
+      "range": {
+        "startLine": 259,
+        "startChar": 45,
+        "endLine": 259,
+        "endChar": 48
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ec651c46",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -93,6 +177,30 @@
       "writtenOn": "2018-07-13T01:21:41Z",
       "side": 1,
       "message": "never if there is no need",
+      "range": {
+        "startLine": 260,
+        "startChar": 24,
+        "endLine": 260,
+        "endChar": 31
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_ac03240e",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 260,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "I will add this to the next patch.",
+      "parentUuid": "da5c1566_ec651c46",
       "range": {
         "startLine": 260,
         "startChar": 24,
@@ -128,6 +236,30 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_0f004200",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "I will add this to the next patch.",
+      "parentUuid": "da5c1566_4c5b6887",
+      "range": {
+        "startLine": 261,
+        "startChar": 35,
+        "endLine": 261,
+        "endChar": 42
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_2c60b431",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -151,6 +283,30 @@
     },
     {
       "key": {
+        "uuid": "da5c1566_ef04ee16",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "I will add this to the next patch.",
+      "parentUuid": "da5c1566_2c60b431",
+      "range": {
+        "startLine": 262,
+        "startChar": 2,
+        "endLine": 262,
+        "endChar": 10
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_8c546055",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -162,6 +318,24 @@
       "writtenOn": "2018-07-13T01:21:41Z",
       "side": 1,
       "message": "in china mobile, the number will be around 600",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da5c1566_ec1d1c75",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-13T07:15:17Z",
+      "side": 1,
+      "message": "Should we modify it to \"100s or 1000s\"?",
+      "parentUuid": "da5c1566_8c546055",
       "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
