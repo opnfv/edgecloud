@@ -89,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_d71c5cc4",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-16T07:36:18Z",
+      "side": 1,
+      "message": "Yes, this is a bit inconsistent, but this is what we have at the moment. In case of small edge there is a specification of hardware resources while in this case we have only a hint of physical size. RU is Rack Unit and means 44.5 mm height in a rack. \nShould we or can we add hw specs to here?",
+      "parentUuid": "da5c1566_2fba66de",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ac74c4fd",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
