@@ -94,6 +94,99 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_3a181d84",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-07-17T13:34:16Z",
+      "side": 1,
+      "message": "+1 :)",
+      "parentUuid": "da5c1566_18a24fae",
+      "range": {
+        "startLine": 62,
+        "startChar": 14,
+        "endLine": 62,
+        "endChar": 42
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_fa2ea5a4",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-07-17T13:34:16Z",
+      "side": 1,
+      "message": "UPF?",
+      "range": {
+        "startLine": 64,
+        "startChar": 22,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_da2be192",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-07-17T13:34:16Z",
+      "side": 1,
+      "message": "SAE?",
+      "range": {
+        "startLine": 71,
+        "startChar": 50,
+        "endLine": 71,
+        "endChar": 53
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_bd39c7da",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-07-17T13:34:16Z",
+      "side": 1,
+      "message": "require",
+      "range": {
+        "startLine": 92,
+        "startChar": 34,
+        "endLine": 92,
+        "endChar": 42
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_f8a67bc0",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 4
@@ -133,6 +226,29 @@
         "startChar": 46,
         "endLine": 134,
         "endChar": 75
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_dd30fbea",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-07-17T13:34:16Z",
+      "side": 1,
+      "message": "require",
+      "range": {
+        "startLine": 153,
+        "startChar": 22,
+        "endLine": 153,
+        "endChar": 30
       },
       "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
