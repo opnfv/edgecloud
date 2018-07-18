@@ -119,6 +119,29 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_40888422",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-18T02:37:52Z",
+      "side": 1,
+      "message": "Qihui, 10x stands for 10-50GB, am I right? But I am considering that is the 10x a proper way to express the 10-50? It may make me misunderstand that it means 101-105. Or how about we experss this as 10*X GB. So does the followings.",
+      "range": {
+        "startLine": 66,
+        "startChar": 28,
+        "endLine": 66,
+        "endChar": 31
+      },
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_b5870461",
         "filename": "requirement/Edge Cloud Requirements.rst",
         "patchSetId": 1
@@ -347,6 +370,70 @@
       "writtenOn": "2018-06-26T13:31:08Z",
       "side": 1,
       "message": "Environmental factors (temp, vibration, etc) must also be taken into account.  There are custom enclosures that provide environmental controls so that non-customized servers can be used.  This is definitely a cost tradeoff.",
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_a091a054",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-18T02:37:52Z",
+      "side": 1,
+      "message": "Do you mean that change the enviroment so we can use to the non-customized severs? In China Mobile, it seems more difficult to change the edge DC or site environment. Certainly, it is indeed a  choice. :)",
+      "parentUuid": "da5c1566_58f97dc7",
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_009fac60",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-18T02:37:52Z",
+      "side": 1,
+      "message": "hierarchical?",
+      "range": {
+        "startLine": 202,
+        "startChar": 27,
+        "endLine": 202,
+        "endChar": 38
+      },
+      "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_e09b9870",
+        "filename": "requirement/Edge Cloud Requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-18T02:37:52Z",
+      "side": 1,
+      "message": "Hierarchical",
+      "range": {
+        "startLine": 205,
+        "startChar": 7,
+        "endLine": 205,
+        "endChar": 18
+      },
       "revId": "2477126241de5276d25c0998414a5862a01b5ea6",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
