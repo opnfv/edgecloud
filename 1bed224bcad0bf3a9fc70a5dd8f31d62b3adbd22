@@ -187,6 +187,29 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_2cd8e752",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-20T06:46:20Z",
+      "side": 1,
+      "message": "10x GB stands for 10-50GB, am I right? But I am considering that is the 10x a proper way to express the 10-50? It may make me misunderstand that it means 101-105. Or how about we experss this as 10*X GB. So does the followings.",
+      "range": {
+        "startLine": 112,
+        "startChar": 27,
+        "endLine": 112,
+        "endChar": 34
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_f8a67bc0",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 4
@@ -342,6 +365,76 @@
         "startChar": 14,
         "endLine": 286,
         "endChar": 17
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_4cd39b38",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-20T06:46:20Z",
+      "side": 1,
+      "message": "Does Mark mean that change the enviroment so we can use to the non-customized severs? In China Mobile, it seems more difficult to change the edge DC or site environment. Certainly, it is indeed a  choice. :)\"",
+      "parentUuid": "da5c1566_987c9f22",
+      "range": {
+        "startLine": 286,
+        "startChar": 14,
+        "endLine": 286,
+        "endChar": 17
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_8cddb345",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 296,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-20T06:46:20Z",
+      "side": 1,
+      "message": "hierarchical?",
+      "range": {
+        "startLine": 296,
+        "startChar": 27,
+        "endLine": 296,
+        "endChar": 38
+      },
+      "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_6ce2df04",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 304,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-20T06:46:20Z",
+      "side": 1,
+      "message": "Hierarchical?",
+      "range": {
+        "startLine": 304,
+        "startChar": 7,
+        "endLine": 304,
+        "endChar": 18
       },
       "revId": "1bed224bcad0bf3a9fc70a5dd8f31d62b3adbd22",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
