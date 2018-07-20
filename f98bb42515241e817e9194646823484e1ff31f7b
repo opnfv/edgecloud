@@ -37,6 +37,29 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_2ca627c2",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-20T08:04:55Z",
+      "side": 1,
+      "message": "I am a little confused with the depth\u0027s definition. The depth means rack depth and depth\u0027s measurement unit is inch.(Is that what it means?) \nIf so, that means the small edge\u0027s samllest depth will be only about 30cm, the lager one will be about 90cm. I am not sure about that data and is there any reference? Is that the super edge scenario at user side? If so, that make sense. And for the medium and large edge, you can take the following as reference. In China Mobile, the minimum rack depth of Access-level DC is about 60cm, some can reach to about 80cm. And the large DC\u0027s general rack depth is 120cm.",
+      "range": {
+        "startLine": 201,
+        "startChar": 0,
+        "endLine": 202,
+        "endChar": 31
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ac4b24af",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -66,6 +89,29 @@
       "side": 1,
       "message": "Yes, it is difficult to predict, but on the other hand we should have some predictions :)",
       "parentUuid": "da5c1566_ac4b24af",
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_6c877f10",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-07-20T08:04:55Z",
+      "side": 1,
+      "message": "At the one server scenario the distributed storage may not be a wisdom choice. Because that will cost so much resource.We do not have that many severs.",
+      "range": {
+        "startLine": 215,
+        "startChar": 41,
+        "endLine": 216,
+        "endChar": 41
+      },
       "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
