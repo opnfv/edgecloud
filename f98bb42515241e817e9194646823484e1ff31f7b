@@ -60,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_0ce523a8",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-20T09:22:36Z",
+      "side": 1,
+      "message": "Yes, it is inches. I will add the measurement in the next patch. \n\nThese deployment options are coming from https://wiki.openstack.org/w/index.php?title\u003dOpenStack_Edge_Discussions_Dublin_PTG what was generated during a workshop and several iterations of reviews and discussions. I do not know the exact source of these numbers.\n\nWe considered small edge as the closest part of the edge cloud infrastructure to the end users, so I guess \"super edge\" also fits.\n\nFor the medium and large edge deployment options we considered standard 19 inch racks. Are your numbers different from that?",
+      "parentUuid": "9a561d44_2ca627c2",
+      "range": {
+        "startLine": 201,
+        "startChar": 0,
+        "endLine": 202,
+        "endChar": 31
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da5c1566_ac4b24af",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -106,6 +130,30 @@
       "writtenOn": "2018-07-20T08:04:55Z",
       "side": 1,
       "message": "At the one server scenario the distributed storage may not be a wisdom choice. Because that will cost so much resource.We do not have that many severs.",
+      "range": {
+        "startLine": 215,
+        "startChar": 41,
+        "endLine": 216,
+        "endChar": 41
+      },
+      "revId": "f98bb42515241e817e9194646823484e1ff31f7b",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_2cf3c774",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-07-20T09:22:36Z",
+      "side": 1,
+      "message": "Should we removed this as an option?",
+      "parentUuid": "9a561d44_6c877f10",
       "range": {
         "startLine": 215,
         "startChar": 41,
