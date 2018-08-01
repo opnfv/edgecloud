@@ -2,25 +2,25 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-============
-Introduction
-============
+================
+1 Introduction
+================
 
 This Edge Cloud Requirement Document is used for eliciting Edge Cloud
 Requirements of OPNFV. This document will define high-level Edge Cloud goals,
 including service reqirements, sites conditions, and translate them into
-detailed requirements on NFV components under edge cloud environment. Moreover,
-this document can be used as reference for edge cloud testing scenarios design.
+detailed requirements on edge cloud infrastructure components. Moreover,
+this document can be used as reference for edge cloud testing scenario design.
 
 
-===========================
-Definitions & Terminologies
-===========================
+===============================
+2 Definitions & Terminologies
+===============================
 
 The following terminologies will be used in this document:
 
 **Core site(s)**: Sites that are far away from end users/ base stations,
-completely virtualized, and mainly host control domain services (such as telco
+completely virtualized, and mainly host control domain services (e.g. telco
 services: HSS, MME, IMS, EPC, etc).
 
 **Edge site(s)**: Sites that are closer to end users/ base stations, and mainly
@@ -30,10 +30,46 @@ host control and compute services.
 site. It contains four parts: time of radio transmission, time of optical fiber
 transmission, time of GW forwarding, and time of VM forwarding.
 
+**BBU**: Building Baseband Unit. It's a centralized processing unit of radio 
+signals. Together with RRU (Remote Radio Unit), it forms the distirbuted 
+base station architecture. For example, a large studium is usually separated 
+into different districts. Each district would be provided with a RRU, which 
+is close to user, to provide radio access. All RRUs would be linked to a BBU, 
+which is located inside a remote site away from user and provide signal 
+processing, using optical fiber. 
 
-============================
-Telco related Edge Use Cases
-============================
+**UPF**: User Port Function, which is a user plane gateway for user 
+data transmission.
+
+**SAE-GW**: SAE stands for System Architecture Evolution, which is the core 
+network architecture of 3GPP's LTE wireless communication standard. SAE-GW 
+includes Serving Gateway and PDN Gateway. Serving Gateway (SGW) routes and 
+forwards user data packets,and also acts as the mobility anchor for LTE and 
+other 3GPP technologies. PDN Gateway (PGW) provides connectivity from the UE 
+to external packet data networks by being the point of exit and entry of 
+traffic for the UE.
+
+SAE-GW related definition link: https://en.wikipedia.org/wiki/System_Architecture_Evolution
+
+**CPE**: In telecommunications, a customer-premises equipment or 
+customer-provided equipment (CPE) is any terminal and associated equipment 
+located at a subscriber's premises and connected with a carrier's telecommunication 
+circuit. CPE generally refers to devices such as telephones, routers, network 
+switches, residential gateways (RG), home networking adapters and Internet 
+access gateways that enable consumers to access communications service providers' 
+services and distribute them around their house via a local area network (LAN).
+
+CPE definition: https://en.wikipedia.org/wiki/Customer-premises_equipment
+
+**enterprise vCPE**: Usually CPE provides a number of network functions such 
+as firewall, access control, policy management and discovering/connecting 
+devices at home. enterprise vCPE stands for virtual CPE for enterprise, which 
+is a software framework that virtualizes several CPE funcitons.
+
+
+===============================
+3 Telco related Edge Use Cases
+===============================
 
 **RAN Services:**  CRAN-CU
 
@@ -43,35 +79,33 @@ CRAN stands for Cloud Radio Access Network or Centralized Radio Access Network.
 The basic concept is to consolidate compute resources to run some radio access
 functions virtually and remotely in a datacenter, rather than in a base station.
 CU stands for Centralized Unit, which holds the non-real-time protocol processing
-function of BBU and supports deployment of some functions of core network.
+function of BBU (refer to Chapter2) and supports deployment of some functions of 
+core network.
 Its generic requirements are listed below:
 
 - CRAN-CU has strict timing and performance requirements for signal processing
-  to be compliant with RAN standards
-
-- The E2E delay should be less than 3ms, which means it should be deployed as
-  close to the users as possible to satisfy the low-latency requirement
+  to be compliant with RAN standards. The E2E delay should be less than 3ms.
 
 - Required bandwidth of CRAN-CU is around 50GB
 
-- Acceleration strategy is recommended for CRAN-CU to implement fast computing
-  and forwarding processes. But what kind of acceleration solution should be used is not clear
+- Acceleration technologies are recommended. Different technologies would be used
+under different deployment scenarios, different use cases and etc.
 
-- No external storage is needed by CRAN-CU. Local storage is enough.
+- No external storage is needed by CRAN-CU. Local disk is enough.
 
-**Gateways:** UPF, SAE-GW, enterprise vCPE
+**Gateways:** UPF, SAE-GW, enterprise vCPE (definitions refer to Chapter2)
 
-Gateway services like UPE, SAE-GW and enterprise vCPE were used to be deployed
+Gateway services like UPF, SAE-GW and enterprise vCPE used to be deployed
 in core sites. They usually do not have strict latency requirements. Latency
 requirements of UPF and SAE-GW are both 10ms. Minimum latency required by
 enterprise vCPE is around 50ms when transmitting video and voice data. The number
 is over a second if transmitting email. So latency requirements can always be
 satisfied theoretically. However, as these gateways usually serve over millions
 of users (every enterprise vCPE serves more than a thousand enterprise-level users),
-they have high throughput: BW of UPF>300GB, BW of SAW-GW is around 50GB, BW of
+they have high throughput: BW of UPF>300GB, BW of SAE-GW is around 50GB, BW of
 enterprise vCPE>40GB. Deploying these services separately in edge sites will help to
-achieve merging and forwarding data flows locally, offload traffic flow from core
-network, and reduce footprints of transmission resources and core computing resources.
+achieve local data flow transmission, offload traffic flow from core network, 
+and reduce footprints of transmission resources and core computing resources.
 
 **Access technology independent service:** edge CDN
 
@@ -89,7 +123,7 @@ distribution and resource downloading.
 **MEC/Edge Computing Services**
 
 Besides requiring low-latency, high-bandwidth, and high reliability, newly
-generated edge computing services requires the local deployment environment
+generated edge computing services require the local deployment environment
 to be capable of doing fast compute to support some intelligence functions
 like real-time data analysis and optimal path calculation of services like V2X.
 The deployment of MEC and third-party applications running on it mainly depends
@@ -104,53 +138,53 @@ means a more flexible infrastructure should be used such as container.
 The table below summarizes the latency and bandwidth requirements of several
 typical telco related services:( x in table stands for 1~5)
 
-+---------------+---------+-----------------+----------+----------+-------------------------+----------+
-| Service       | CND     | enterprise vCPE | SAE-GW   | 5G-UPF   | MEP                     | CRAN-CU  |
-+---------------+---------+-----------------+----------+----------+-------------------------+----------+
-| E2E delay     |   10ms  | 50ms            | 10ms     | 10ms     | URLLC<3ms, eMBB<10ms    | 3ms      |
-+---------------+---------+-----------------+----------+----------+-------------------------+----------+
-| Bandwidth     | >100GB  | 10x GB          | 10x GB   | >300GB   | 10x GB                  | 10x GB   |
-+---------------+---------+-----------------+----------+----------+-------------------------+----------+
++------------+---------+-----------------+---------+--------+----------------------+----------+
+| Service    | CND     | enterprise vCPE | SAE-GW  | 5G-UPF | MEP                  | CRAN-CU  |
++------------+---------+-----------------+---------+--------+----------------------+----------+
+| E2E delay  |   10ms  | 50ms            | 10ms    | 10ms   | URLLC<3ms, eMBB<10ms | 3ms      |
++------------+---------+-----------------+---------+--------+----------------------+----------+
+| Bandwidth  | >100GB  | 10*x GB         | 10*x GB | >300GB | 10 * x GB            | 10*x GB  |
++------------+---------+-----------------+---------+--------+----------------------+----------+
 
-================
-Features of Edge
-================
+===================
+4 Features of Edge
+===================
 
 
 Lighter weight control
-======================
+=======================
 
 As space and power resources are limited in edge sites and edge usually has
 fewer number of server (the number varies from a few to several dozens), it is
-unnecessary to deploy orchestrator or VNFM. VIM (OpenStack) and SDN would be
-deployed in light weight manner to save resources for services. Detailed
-functions of light weight VIM and SDN have not been discussed yet, but basic
-functions such as VM lifecycle management and automatic network management
-should be persisted.
+unnecessary to deploy orchestrator or VNFM. VIM (e.g.: OpenStack or Kubernetes) 
+and SDN would be deployed in light weight manner to save resources for services. 
+Detailed functions of light weight VIM and SDN have not been discussed yet, 
+but basic functions such as VM lifecycle management and automatic network 
+management should be persisted.
 
 Remote provisioning
-===================
+====================
 
-As there is no professional maintenance staff except for hardware operators at
-edge, remote provisioning should be provided so that virtual resources of
-distributed edge sites can obtain unified orchestration and maintenance.
-Orchestrator together with OSS/BSS, EMS and VNFM should be deployed remotely
-in some central offices to reduce the difficulty and cost of management as well
-as increase edge resource utilization ratio. Multi region OpenStack could be
-considered as one of the VIM solution.
+As there is no professional maintenance staff at edge, remote provisioning 
+should be provided so that virtual resources of distributed edge sites 
+can obtain unified orchestration and maintenance. Orchestrator together 
+with OSS/BSS, EMS and VNFM should be deployed remotely in some central offices 
+to reduce the difficulty and cost of management as well as increase edge 
+resource utilization ratio. Multi region OpenStack could be considered as 
+one of the VIM solution.
 
 Resource diversity
 ==================
 
-With various applications running on edge, heterogeneous resources, including
-VM, container and bare-metal could co-exist and form heterogeneous resource pool.
+With various applications running on edge, diverse resources, including
+VM, container and bare-metal could co-exist and form diverse resource pool.
 These resources should be managed by edge management components as well as core
 orchestration/management components.
 
 Hardware/Software acceleration
 ==============================
 
-Edge services usually requires strict low latency, high bandwidth, and fast
+Edge services usually require strict low latency, high bandwidth, and fast
 compute and processing ability. Acceleration technology should be used in
 edge to maintain good service performance. OpenStack should fully expose these
 acceleration capabilities to services. The usage of different acceleration
@@ -159,70 +193,119 @@ from service to service.
 
 Related project about acceleration: https://wiki.openstack.org/wiki/Cyborg
 
-===========================================
-Edge Sites Conditions/ Deployment Scenarios
-===========================================
+==============================================
+5 Edge Sites Conditions/ Deployment Scenarios
+==============================================
 
 Latency and distance to customer are taken as two main characters to separate
 different sites. The following figure shows three different sites.
 
 .. figure:: images/SitesPlot.png
-	:alt: Edge Sites Structure
-	:align: center
+  :alt: Edge Sites Structure
+  :align: center
+
 
 Small Edge
 ==========
 
-- Distance to base station: less than 10km, closest site to end users/ base station
+- Distance to base station: around 10km, closest site to end users / base station
 
-- **E2E delay: around 2ms**
+- E2E delay(from UE to site): around 2ms
 
-- Maximum bandwidth can provide: 50G
+- Maximum bandwidth can provide: 50 GB/s
 
-- Minimum server number: 1
+- Minimum hardware specs: 1 unit of
 
-- Maximum server number: 20
+  - 4 cores (two ARM or Xeon-D processors)
+  - 8 GB RAM (4 DIMM)
+  - 1 * 240 GB SSD (2 * 2.5)
+
+- Maximum hardware specs: 1 unit of
+
+  - 16 cores
+  - 64 GB RAM
+  - 1 * 1 TB storage
 
 - Power for a site: < 10KW
+
+- Physical access of maintainer: Rare, maintenance staff may only show up in
+  this kind of site when machines initialize for the first time or a machine
+  is down
+
+- Physical security: none (Optionally secure booting is needed)
+
+- Expected frequency of updates to hardware: 3-4 year refresh cycle
+
+- Expected frequency of updates to firmware: 6-12 months
+
+- Expected frequency of updates to control systems (e.g. OpenStack or
+  Kubernetes controllers): ~ 12 - 24 months, has to be possible from 
+  remote management
+
+- Physical size: Not all the sites will have 36 depth capability. Some sites
+  might be limited to 12 depth.
+
+- Number of instances: depends on demands (3000+)
 
 - Services might be deployed here: MEC, or other services which have strict
   requirements on latency. Services deployed in this kind of sites have huge
   regional deference
 
-- Physical access of maintainer: Rare, maintenance staff may only show up in
-  this kind of site when machines initialize for the first time or a machine down
+- Remote network connection reliability: No 100% uptime and variable
+  connectivity expected.
 
-- Remote network connection reliability: Not 100% reliable or stable
+- Orchestration: no orchestration component. MANO deployed in core site 
+  provide remote orchestration
 
-- Orchestration: no orchestration component. MANO deployed in core site provide
-  remote orchestration
+- Degree of virtualization: it is possible that no virtualization 
+  technology would be used in small edge site if virtualization 
+  increases structure/network complexity, reduce service performance, 
+  or cost more resources. Bare-metal is common in small edge sites. 
+  Container would also be a future choice if virtualization was needed
 
-- Degree of virtualization: it is possible that no virtualization technology would
-  be used in small edge site if virtualization increases structure/network complexity,
-  reduce service performance, or cost more resources. Bare-metal is common in small
-  edge sites. Container would also be a future choice if virtualization was needed
-
-- Storage: mainly consider local storage. Distributed storage would be used depending
-  on services’ needs and site conditions.
+- Storage: mainly consider local storage. Distributed storage would be 
+  used depending on services’ needs and site conditions.
 
 Medium Edge
 ===========
+- Distance to base station: around 50 km
 
-- **E2E delay: less than 2.5ms**
+- E2E delay (from UE to site): less than 2.5ms
 
-- **Distance to base station: 10x km (1<x<8)**
+- Maximum bandwidth can provide: 100 GB/s
 
-- Maximum bandwidth can provide: 100G
+- Minimum hardware specs: 2 RU
 
-- Server number: 20 ~ 100
+- Maximum hardware specs: 20 RU
 
-- Power for a site: 10 KW<power<20 KW
-
-- Services might be deployed here: MEC, RAN, CPE, etc.
+- Power for a site: 10 - 20 10 kW
 
 - Physical access of maintainer: Rare
 
-- Remote network connection reliability: Not 100% reliable or stable
+- Physical security: Medium, probably not in a secure data center, 
+  probably in a semi-physically secure; each device has some 
+  authentication (such as certificate) to verify it's a legitimate 
+  piece of hardware deployed by operator; network access is all 
+  through security enhanced methods (vpn, connected back to dmz); 
+  VPN itself is not considered secure, so other mechanism such 
+  as https should be employed as well)
+
+- Expected frequency of updates to hardware: 5-7 years
+
+- Expected frequency of updates to firmware: Never unless required to 
+  fix blocker/critical bug(s)
+
+- Expected frequency of updates to control systems (e.g. OpenStack or 
+  Kubernetes controllers): 12 - 24 months
+
+- Physical size: TBD
+
+- Number of instances: 3000+
+
+- Services might be deployed here: MEC, RAN, CPE, etc.
+
+- Remote network connection reliability: 24/24 (high uptime but connectivity 
+  is variable), 100% uptime expected
 
 - Orchestration: no orchestration component. MANO deployed in core site
   provide remote orchestration.
@@ -231,26 +314,43 @@ Medium Edge
   VM, container may form hybrid virtualization layer. Bare-metal is possible in
   middle sites
 
-- Storage: local storage and distributed storage, which depends on site conditions
-  and services’ needs
+- Storage: local storage and distributed storage, which depends on site 
+  conditions and services’ needs
+
 
 Large Edge
 ==========
+- Distance to base station: 100*x km (0.8<x<3)
 
 - E2E delay: around 4ms
 
-- Distance to base station: 100x km (0.8<x<3)
+- Maximum bandwidth can provide: 200 GB/s
 
-- Maximum bandwidth can provide: 200G
+- Minimum hardware specs: N/A
 
-- Server number: 100+
+- Maximum hardware specs: 100+ servers
 
-- Power for a site: 10x KW (2<x<9)
+- Power for a site: 20 - 90 kW
+
+- Physical access of maintainer: professional maintainer will monitor the 
+  site
+
+- Physical security: High
+
+- Expected frequency of updates to hardware: 36 month
+
+- Expected frequency of updates to firmware: Never unless required to fix 
+  blocker/critical bug(s)
+
+- Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes 
+  controllers): 12 - 24 months
+
+- Physical size: same as a normal DC
+
+- Number of instances: 600+
 
 - Services might be deployed here: CDN, SAE-GW, UPF, CPE and etc., which have
   large bandwidth requirements and relatively small latency requirements
-
-- Physical access of maintainer: professional maintainer will monitor the site
 
 - Remote network connection reliability: reliable and stable
 
@@ -258,30 +358,33 @@ Large Edge
   remote orchestration
 
 - Degree of virtualization: almost completely virtualized in the form of VMs
-  (if take CDN into consideration, which may not be virtualized, the virtualization
-  degree would decrease in sites with CDN deployment)
+  (if take CDN into consideration, which may not be virtualized, the 
+  virtualization degree would decrease in sites with CDN deployment)
 
 - Storage: distributed storage
 
-==============
-Edge Structure
-==============
+=================
+6 Edge Structure
+=================
 
 Based on requirements of telco related use cases and edge sites conditions,
 the edge structure has been summarized as the figure below.
 
 .. figure:: images/EdgeStructure.png
-	:alt: Edge Structure
-	:align: center
+  :alt: Edge Structure
+  :align: center
 
-=========================================
-Requirements & Features on NFV Components
-=========================================
+============================================
+7 Requirements & Features on NFV Components
+============================================
 
 Hardware
 ========
 
-Customized server would be possible for edge because of limited space and power.
+Customized server would be possible for edge because of limited space, power, 
+temperature, vibration and etc. But if there were custom enclosures that can 
+provide environmental controls, then non-customized server can be used, which 
+is a cost tradeoff.
 
 More derails: TBD
 
@@ -293,7 +396,7 @@ More details:TBD
 
 OpenStack
 =========
-Edge OpenStack would be in hierachical structure. Remote provisioning like
+Edge OpenStack would be in hierarchical structure. Remote provisioning like
 multi-region OpenStack would exist in large edge sites with professional
 maintenance staff and provide remote management on several middle/small
 edge sites. Middle and small edge sites would not only have their own resource
@@ -301,8 +404,8 @@ management components to provide local resource and network management, but
 also under the remote provisioning of OpenStack in large edge sites.
 
 .. figure:: images/Layer.png
-	:alt: Hierachical OpenStack
-	:align: center
+  :alt: Hierarchical OpenStack
+  :align: center
 
 For large edge sites, OpenStack would be fully deployed. Its Keystone and Horizon
 would provide unified tenant and UI management for both itself and remote middle
