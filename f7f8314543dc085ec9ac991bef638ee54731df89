@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_d5e27d02",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "This was already corrected in https://gerrit.opnfv.org/gerrit/#/c/58959",
+      "parentUuid": "9a561d44_9dedd18e",
+      "range": {
+        "startLine": 64,
+        "startChar": 22,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a561d44_fd016d3a",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2018-08-01T06:36:57Z",
       "side": 1,
       "message": "SAE-GW",
+      "range": {
+        "startLine": 71,
+        "startChar": 50,
+        "endLine": 71,
+        "endChar": 56
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_35e77914",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "This was already corrected in https://gerrit.opnfv.org/gerrit/#/c/58959",
+      "parentUuid": "9a561d44_fd016d3a",
       "range": {
         "startLine": 71,
         "startChar": 50,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_15e4f50b",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "This was already corrected in https://gerrit.opnfv.org/gerrit/#/c/58959",
+      "parentUuid": "9a561d44_ddfe2938",
+      "range": {
+        "startLine": 92,
+        "startChar": 34,
+        "endLine": 92,
+        "endChar": 42
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a561d44_3dfc853e",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2018-08-01T06:36:57Z",
       "side": 1,
       "message": "Seems change the \"like\" to \"for\" will be better.",
+      "range": {
+        "startLine": 94,
+        "startChar": 70,
+        "endLine": 94,
+        "endChar": 74
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_75f1f1cc",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "I think V2X in this context one example service, therefore it should be like.",
+      "parentUuid": "9a561d44_3dfc853e",
       "range": {
         "startLine": 94,
         "startChar": 70,
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_55ee6ded",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "Already corrected in https://gerrit.opnfv.org/gerrit/#/c/58959",
+      "parentUuid": "9a561d44_1df9c14d",
+      "range": {
+        "startLine": 112,
+        "startChar": 1,
+        "endLine": 112,
+        "endChar": 104
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a561d44_5d9a1915",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -128,6 +248,30 @@
       "writtenOn": "2018-08-01T06:36:57Z",
       "side": 1,
       "message": "What exactly mean for SDN? SDN controller, or other function/entity?",
+      "range": {
+        "startLine": 125,
+        "startChar": 64,
+        "endLine": 125,
+        "endChar": 67
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_b5ba69df",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "I think SDN controller. Should we add controller explicitly?",
+      "parentUuid": "9a561d44_5d9a1915",
       "range": {
         "startLine": 125,
         "startChar": 64,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_95bf65d0",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "I will correct this in https://gerrit.opnfv.org/gerrit/#/c/58959/",
+      "parentUuid": "9a561d44_bd9ff502",
+      "range": {
+        "startLine": 154,
+        "startChar": 0,
+        "endLine": 154,
+        "endChar": 7
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a561d44_9da4b158",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -186,6 +354,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_f5b4e1f3",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "I will correct this in https://gerrit.opnfv.org/gerrit/#/c/58959/",
+      "parentUuid": "9a561d44_9da4b158",
+      "range": {
+        "startLine": 157,
+        "startChar": 30,
+        "endLine": 157,
+        "endChar": 36
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a561d44_fd884dc8",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 1
@@ -197,6 +389,30 @@
       "writtenOn": "2018-08-01T06:36:57Z",
       "side": 1,
       "message": "reduces service performance, or consumes more resources.",
+      "range": {
+        "startLine": 202,
+        "startChar": 2,
+        "endLine": 202,
+        "endChar": 53
+      },
+      "revId": "f7f8314543dc085ec9ac991bef638ee54731df89",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_3595b940",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T08:15:08Z",
+      "side": 1,
+      "message": "Corrected in https://gerrit.opnfv.org/gerrit/#/c/58959/7",
+      "parentUuid": "9a561d44_fd884dc8",
       "range": {
         "startLine": 202,
         "startChar": 2,
