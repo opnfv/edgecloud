@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a561d44_357779d6",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "stadium?",
+      "range": {
+        "startLine": 36,
+        "startChar": 48,
+        "endLine": 36,
+        "endChar": 55
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_954f6592",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "MEC?",
+      "range": {
+        "startLine": 144,
+        "startChar": 69,
+        "endLine": 144,
+        "endChar": 72
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_95364502",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "Trailing whitespace\n\nand a couple more below",
+      "range": {
+        "startLine": 202,
+        "startChar": 2,
+        "endLine": 202,
+        "endChar": 3
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_f5122161",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "Is this the number of VM or container instances simultaneously on the one unit?",
+      "range": {
+        "startLine": 254,
+        "startChar": 42,
+        "endLine": 254,
+        "endChar": 49
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_d5171d50",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "environment",
+      "range": {
+        "startLine": 292,
+        "startChar": 38,
+        "endLine": 292,
+        "endChar": 39
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_a874d09c",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "Is this the same as small edge on purpose?",
+      "range": {
+        "startLine": 309,
+        "startChar": 23,
+        "endLine": 309,
+        "endChar": 27
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_350c9942",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 313,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "7?",
+      "range": {
+        "startLine": 313,
+        "startChar": 44,
+        "endLine": 313,
+        "endChar": 46
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_88790c96",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 7
+      },
+      "lineNbr": 356,
+      "author": {
+        "id": 722
+      },
+      "writtenOn": "2018-08-06T14:21:27Z",
+      "side": 1,
+      "message": "Is this the smallest number out of all edge sties on purpose?",
+      "range": {
+        "startLine": 356,
+        "startChar": 23,
+        "endLine": 356,
+        "endChar": 26
+      },
+      "revId": "4f02ccd5c2cae7553a406fdccc8f925f48945191",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
