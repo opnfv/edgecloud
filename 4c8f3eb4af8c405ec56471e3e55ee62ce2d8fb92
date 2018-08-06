@@ -68,6 +68,52 @@
       "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_d5871d0e",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-08-06T08:30:21Z",
+      "side": 1,
+      "message": "Sorry for late reply. In CMCC, the central DC rack depth is about 120cm(47.2 inch). When comes to the access-level and other edge DCs, the rack depth ranges from 60cm(23.6 inch)-80cm(31.5 inch).  Obviously, the server depth is shorter than rack depth.All of these data is not from the user side but the DC side. I not sure and guess the 36 inch and 12 inch may be calculated from the user equipment.",
+      "range": {
+        "startLine": 201,
+        "startChar": 17,
+        "endLine": 202,
+        "endChar": 36
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_d5b9ddea",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 5685
+      },
+      "writtenOn": "2018-08-06T08:30:21Z",
+      "side": 1,
+      "message": "It is much better to remove this. :)",
+      "range": {
+        "startLine": 215,
+        "startChar": 42,
+        "endLine": 216,
+        "endChar": 41
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
