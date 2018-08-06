@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a561d44_15f6b5d7",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 7325
+      },
+      "writtenOn": "2018-08-06T05:48:48Z",
+      "side": 1,
+      "message": "UPF",
+      "range": {
+        "startLine": 64,
+        "startChar": 22,
+        "endLine": 64,
+        "endChar": 25
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_b52c294c",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 7325
+      },
+      "writtenOn": "2018-08-06T05:48:48Z",
+      "side": 1,
+      "message": "SAW-GW -\u003e SAE-GW\nGB -\u003e Gbps (several places)",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 72,
+        "endChar": 20
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_953125a5",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 7325
+      },
+      "writtenOn": "2018-08-06T05:48:48Z",
+      "side": 1,
+      "message": "SR-IoV -\u003e SR-IOV",
+      "range": {
+        "startLine": 157,
+        "startChar": 30,
+        "endLine": 157,
+        "endChar": 36
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
