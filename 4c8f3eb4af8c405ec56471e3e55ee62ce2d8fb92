@@ -94,6 +94,30 @@
     },
     {
       "key": {
+        "uuid": "9a561d44_d5ed5d8d",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T10:37:32Z",
+      "side": 1,
+      "message": "Should I change to \"Not all the sites will have capability to host devices up to 36 inch depth. Some sites might be limited capability to host devices to 12 inch depth.\" ?",
+      "parentUuid": "9a561d44_d5871d0e",
+      "range": {
+        "startLine": 201,
+        "startChar": 17,
+        "endLine": 202,
+        "endChar": 36
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a561d44_d5b9ddea",
         "filename": "docs/development/requirements/requirements.rst",
         "patchSetId": 4
@@ -105,6 +129,30 @@
       "writtenOn": "2018-08-06T08:30:21Z",
       "side": 1,
       "message": "It is much better to remove this. :)",
+      "range": {
+        "startLine": 215,
+        "startChar": 42,
+        "endLine": 216,
+        "endChar": 41
+      },
+      "revId": "4c8f3eb4af8c405ec56471e3e55ee62ce2d8fb92",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_3502d93e",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-06T10:37:32Z",
+      "side": 1,
+      "message": "okay",
+      "parentUuid": "9a561d44_d5b9ddea",
       "range": {
         "startLine": 215,
         "startChar": 42,
