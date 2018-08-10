@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a561d44_f314f4f6",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 8
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 7299
+      },
+      "writtenOn": "2018-08-10T01:28:00Z",
+      "side": 1,
+      "message": "The number of large sites would be relative smaller than the number of small/medium sites. Based on our deployment plan, I think the number for large sites would be 600+.",
+      "range": {
+        "startLine": 288,
+        "startChar": 24,
+        "endLine": 288,
+        "endChar": 28
+      },
+      "revId": "d56d18b1f2a11295790df85da7c35991fa3d8ec2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
