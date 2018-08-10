@@ -16,6 +16,24 @@
       "revId": "2707a3f21c74bc6de7460c3668743db3229be487",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_d39570e5",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-10T10:54:12Z",
+      "side": 1,
+      "message": "Agh! It was removed by mistake. I put it back. Thanks for the comment.",
+      "parentUuid": "9a561d44_138408d3",
+      "revId": "2707a3f21c74bc6de7460c3668743db3229be487",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
