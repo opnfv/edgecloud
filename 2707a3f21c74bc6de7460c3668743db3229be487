@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a561d44_138408d3",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 9
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 7299
+      },
+      "writtenOn": "2018-08-10T08:58:56Z",
+      "side": 1,
+      "message": "Hi Gergely, I was wondering why this part has been removed, cause it\u0027s a typical feature when it comes to edge O\u0026M. I missed the conference call two weeks ago. Maybe there was some info about this I need to follow ;)\nThanks a lot~~",
+      "revId": "2707a3f21c74bc6de7460c3668743db3229be487",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
