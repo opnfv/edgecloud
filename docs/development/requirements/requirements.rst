@@ -39,7 +39,7 @@ is close to user, to provide radio access. All RRUs would be linked to a BBU,
 which is located inside a remote site away from user and provide signal
 processing, using optical fiber.
 
-**UPF**: User Port Function, which is a user plane gateway for user
+**UPF**: User Plane Function, which is a user plane gateway for user
 data transmission.
 
 **SAE-GW**: SAE stands for System Architecture Evolution, which is the core
