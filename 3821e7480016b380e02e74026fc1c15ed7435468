@@ -22,6 +22,30 @@
       "revId": "3821e7480016b380e02e74026fc1c15ed7435468",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_1936e752",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 10
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-13T07:40:04Z",
+      "side": 1,
+      "message": "As this is not related to the content of this change, I\u0027ve created a separate one for this (https://gerrit.opnfv.org/gerrit/#/c/60887/).",
+      "parentUuid": "9a561d44_39e48b0c",
+      "range": {
+        "startLine": 42,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 27
+      },
+      "revId": "3821e7480016b380e02e74026fc1c15ed7435468",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
