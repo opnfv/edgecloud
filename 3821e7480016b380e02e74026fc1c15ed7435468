@@ -1,0 +1,10 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+2: Qihui Zhao <zhaoqihui@chinamobile.com>
+Code-Review+1: Kailun Qin <kailun.qin@intel.com>
+Code-Review+2: Cristina Pauna <cristina.pauna@enea.com>
+Code-Review+2: Xiaohua Zhang <xiaohua.zhang@163.com>
+Submitted-by: Gergely Csatari <gergely.csatari@nokia.com>
+Submitted-at: Tue, 14 Aug 2018 05:54:26 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/59763
+Project: edgecloud
+Branch: refs/heads/master
