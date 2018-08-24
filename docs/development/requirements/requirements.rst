@@ -39,6 +39,11 @@ is close to user, to provide radio access. All RRUs would be linked to a BBU,
 which is located inside a remote site away from user and provide signal
 processing, using optical fiber.
 
+**BRAS**: Broadband Remote Access Server. An Ethernet-centric IP edge router,
+and the aggregation point for the user traffic. It performs Ethernet
+aggregation and packets forwarding via IP/MPLS, and supports user management,
+access protocols termination, QoS and policy management, etc.
+
 **UPF**: User Plane Function, which is a user plane gateway for user
 data transmission.
 
