@@ -6,11 +6,14 @@
 Introduction
 ============
 
-This Edge Cloud Requirement Document is used for eliciting Edge Cloud
-Requirements of OPNFV. This document will define high-level Edge Cloud goals,
-including service reqirements, sites conditions, and translate them into
-detailed requirements on edge cloud infrastructure components. Moreover,
-this document can be used as reference for edge cloud testing scenario design.
+This Edge Cloud Requirement Document is used for eliciting telecom network Edge
+Cloud Requirements of OPNFV, where telecom network edge clouds are edge clouds
+deployed into the telecommunication infrastructure. Edge clouds deployed beyond
+the borders of telecommunication networks are outside of the scope of this
+document. This document will define high-level telecom network edge cloud
+goals, including service reqirements, sites conditions, and translate them into
+detailed requirements on edge cloud infrastructure components. Moreover, this
+document can be used as reference for edge cloud testing scenario design.
 
 .. _definitions:
 
