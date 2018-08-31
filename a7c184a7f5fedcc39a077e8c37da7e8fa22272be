@@ -22,6 +22,30 @@
       "revId": "a7c184a7f5fedcc39a077e8c37da7e8fa22272be",
       "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a561d44_fd602437",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2018-08-31T12:54:31Z",
+      "side": 1,
+      "message": "Edge clouds \"on the other side of radio\" are different in a sense, that they are not part of the infrastructure maintained by telecom operators and they most probably will run in a very hardware limited environment. I would like to remove them explicitly, because currently they are removed (not added) implicitly which creates confusion. I think it is better to set the scope of the document clearly.",
+      "parentUuid": "9a561d44_5d6af01a",
+      "range": {
+        "startLine": 9,
+        "startChar": 52,
+        "endLine": 9,
+        "endChar": 63
+      },
+      "revId": "a7c184a7f5fedcc39a077e8c37da7e8fa22272be",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
     }
   ]
 }
