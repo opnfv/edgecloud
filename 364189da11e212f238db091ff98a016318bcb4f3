@@ -1,0 +1,7 @@
+Verified+1: jenkins-ci <jenkins-opnfv-ci@opnfv.org>
+Code-Review+2: Xiaohua Zhang <xiaohua.zhang@windriver.com>
+Submitted-by: Xiaohua Zhang <xiaohua.zhang@windriver.com>
+Submitted-at: Wed, 26 Sep 2018 12:34:22 +0000
+Reviewed-on: https://gerrit.opnfv.org/gerrit/62975
+Project: edgecloud
+Branch: refs/heads/master
