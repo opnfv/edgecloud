@@ -225,7 +225,7 @@ Small Edge
   - 8 GB RAM (4 DIMM)
   - 1 * 240 GB SSD (2 * 2.5)
 
-- Maximum hardware specs: 1 unit of
+- Maximum hardware specs: 5 unit of
 
   - 16 cores
   - 64 GB RAM
@@ -234,15 +234,20 @@ Small Edge
 - Power for a site: < 10 kW
 - Physical access of maintainer: Rare, maintenance staff may only show up in
   this kind of site when machines initialize for the first time or a machine
-  is down
+  is down. Maintenance staff is skilled in mechanical engineering and not in
+  IT.
 - Physical security: none (Optionally secure booting is needed)
 - Expected frequency of updates to hardware: 3-4 year refresh cycle
 - Expected frequency of updates to firmware: 6-12 months
 - Expected frequency of updates to control systems (e.g. OpenStack or
   Kubernetes controllers): ~ 12 - 24 months, has to be possible from remote
   management
-- Physical size: Not all the sites will have 36 inch depth capability. Some sites
-  might be limited to 12 inch depth.
+- Physical size: 482.6 mm (19 inch) witdth rack. Not all the sites will have
+  1000 mm (36 inch) depth capability. Some sites might be limited to 600 mm
+  (12 inch) depth.
+- Cooling: front cooling
+- Access / cabling: front
+- NEBS 3 compliant
 - Number of edge cloud instances: depends on demands (3000+)
 - Services might be deployed here: MEC, or other services which have strict
   requirements on latency. Services deployed in this kind of sites have huge
@@ -255,6 +260,7 @@ Small Edge
   be used in small edge site if virtualization increases structure/network complexity,
   reduces service performance, or costs more resources. Bare-metal is common in small
   edge sites. Container would also be a future choice if virtualization was needed
+- Smart NICs are supported
 - Storage: mainly local storage.
 
 Medium Edge
@@ -265,7 +271,8 @@ Medium Edge
 - Minimum hardware specs: 2 Rack Unit (RU)
 - Maximum hardware specs: 20 Rack Unit
 - Power for a site: 10 - 20 10 kW
-- Physical access of maintainer: Rare
+- Physical access of maintainer: Rare. Maintenance staff is skilled in
+  mechanical engineering and not in IT.
 - Physical security: Medium, probably not in a secure data center, probably in
   a semi-physically secure environment; each device has some authentication
   (such as certificate) to verify it's a legitimate piece of hardware deployed
@@ -276,6 +283,9 @@ Medium Edge
 - Expected frequency of updates to firmware: Never unless required to fix blocker/critical bug(s)
 - Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes controllers): 12 - 24 months
 - Physical size: TBD
+- Cooling: front cooling
+- Access / cabling: front
+- NEBS 3 compliant
 - Number of edge cloud instances: 3000+
 - Services might be deployed here: MEC, RAN, CPE, etc.
 - Remote network connection reliability: 24/7 (high uptime but connectivity is
@@ -285,23 +295,28 @@ Medium Edge
 - Degree of virtualization: depends on site conditions and service requirements.
   VM, container may form hybrid virtualization layer. Bare-metal is possible in
   middle sites
+- Smart NICs are supported
 - Storage: local storage and distributed storage, which depends on site conditions
   and services’ needs
 
 Large Edge
 ==========
-- Distance to base station: 100 x km (0.8<x<3)
+- Distance to base station: 80 - 300 km
 - E2E delay: around 4 ms
 - Maximum bandwidth can provide: 200 GB/s
 - Minimum hardware specs: N/A
 - Maximum hardware specs: 100+ servers
 - Power for a site: 20 - 90 kW
-- Physical access of maintainer: professional maintainer will monitor the site
+- Physical access of maintainer: professional maintainer will monitor the site.
+  Maintenance staff is skilled in mechanical engineering and not in IT.
 - Physical security: High
 - Expected frequency of updates to hardware: 36 month
 - Expected frequency of updates to firmware: Never unless required to fix blocker/critical bug(s)
 - Expected frequency of updates to control systems (e.g. OpenStack or Kubernetes controllers): 12 - 24 months
 - Physical size: same as a normal DC
+- Cooling: front cooling
+- Access / cabling: front
+- NEBS 3 compliant
 - Number of edge cloud instances: 600+
 - Services might be deployed here: CDN, SAE-GW, UPF, CPE and etc., which have
   large bandwidth requirements and relatively low latency requirements
@@ -311,6 +326,7 @@ Large Edge
 - Degree of virtualization: almost completely virtualized in the form of VMs
   (if take CDN into consideration, which may not be virtualized, the virtualization
   degree would decrease in sites with CDN deployment)
+- Smart NICs are supported
 - Storage: distributed storage
 
 ==============
