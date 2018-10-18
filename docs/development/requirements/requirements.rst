@@ -161,16 +161,16 @@ Features of Edge
 ================
 
 
-Lighter weight control
-======================
+Resource optimized control
+==========================
 
 As space and power resources are limited in edge sites and edge usually has
 fewer number of servers (the number varies from a few to several dozens), it is
-unnecessary to deploy orchestrator or VNFM. VIM (e.g.: OpenStack or Kubernetes)
-and SDN would be deployed in light weight manner to save resources for services.
-Detailed functions of light weight VIM and SDN have not been discussed yet,
-but basic functions such as VM lifecycle management and automatic network
-management should be persisted.
+unnecessary to deploy orchestrator or VNFM. The depolyed VIM (e.g.: OpenStack
+or Kubernetes) and SDN would be optimized for low resource usage to save
+resources for services. Resource optimisation of VIM and SDN have not been
+discussed yet, but basic functions such as VM lifecycle management and
+automatic network management should be persisted.
 
 Remote provisioning
 ====================
@@ -373,11 +373,14 @@ also under the remote provisioning of OpenStack in large edge sites.
   :alt: Hierarchical OpenStack
   :align: center
 
-For large edge sites, OpenStack would be fully deployed. Its Keystone and Horizon
-would provide unified tenant and UI management for both itself and remote middle
-and small edge sites. Middle edge sites would have OpenStack with neccessary
-services like Nova, Neutron and Glance. Small edge site, which has server number
-less than 20, would use light weight OpenStack.
+Optionally for large edge sites, OpenStack would be fully deployed. Its
+Keystone and Horizon would provide unified tenant and UI management for both
+itself and remote middle and small edge sites. In this case middle edge sites
+would have OpenStack with neccessary services like Nova, Neutron and Glance.
+While small edge site would use resource optimized weight OpenStack.
+
+Other option is to use different instances of the same resource optimized
+OpenStack to control both large, medium and small edge sites.
 
 More detalis: TBD
 
