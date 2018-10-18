@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a682502_e9e226d4",
+        "filename": "docs/development/requirements/requirements.rst",
+        "patchSetId": 2
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 5267
+      },
+      "writtenOn": "2018-10-18T13:26:56Z",
+      "side": 1,
+      "message": "whitespaces",
+      "range": {
+        "startLine": 383,
+        "startChar": 61,
+        "endLine": 383,
+        "endChar": 63
+      },
+      "revId": "b69d3d73de06340f6f50cd03ed4c5eb93ffb1ac2",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
