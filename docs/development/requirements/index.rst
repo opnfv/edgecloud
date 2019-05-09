@@ -12,4 +12,4 @@ Edge Cloud Requirement in OPNFV
    :maxdepth: 2
 
    requirements.rst
-
+   edge_cloud_test_case_reference.rst
