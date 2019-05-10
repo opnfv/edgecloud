@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "468747b1_ad092c14",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 492,
+      "author": {
+        "id": 2091
+      },
+      "writtenOn": "2019-05-10T10:44:42Z",
+      "side": 1,
+      "message": "be careful with the spaces",
+      "range": {
+        "startLine": 492,
+        "startChar": 0,
+        "endLine": 492,
+        "endChar": 1
+      },
+      "revId": "0cb2ffb532fb437f9164a092fe24db7db1ffe044",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc04ef1b_388e63d8",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 499,
+      "author": {
+        "id": 2091
+      },
+      "writtenOn": "2019-05-10T10:44:42Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 499,
+        "startChar": 84,
+        "endLine": 499,
+        "endChar": 85
+      },
+      "revId": "0cb2ffb532fb437f9164a092fe24db7db1ffe044",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
