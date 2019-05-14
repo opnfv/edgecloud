@@ -1,0 +1,257 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8f2fc5b2_adab904b",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "Monitoring",
+      "range": {
+        "startLine": 36,
+        "startChar": 3,
+        "endLine": 36,
+        "endChar": 13
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "681b33e6_43d7c46a",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "rapidly",
+      "range": {
+        "startLine": 42,
+        "startChar": 58,
+        "endLine": 42,
+        "endChar": 65
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6dfdd8a6_1882792e",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "processes",
+      "range": {
+        "startLine": 64,
+        "startChar": 33,
+        "endLine": 64,
+        "endChar": 42
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ca77e10_7a5b8e26",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "nova",
+      "range": {
+        "startLine": 64,
+        "startChar": 51,
+        "endLine": 64,
+        "endChar": 55
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c2ee0fe6_04d6d69e",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "attach",
+      "range": {
+        "startLine": 81,
+        "startChar": 31,
+        "endLine": 81,
+        "endChar": 37
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e71b74fb_ce6cbf80",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": ":",
+      "range": {
+        "startLine": 96,
+        "startChar": 17,
+        "endLine": 96,
+        "endChar": 19
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c1bbac35_c0a6af37",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "maybe \"user interface\" would be more nice",
+      "range": {
+        "startLine": 351,
+        "startChar": 43,
+        "endLine": 351,
+        "endChar": 48
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e663ceba_ab9e58fc",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 481,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "I think this should be a test tool rather than a test case. \nThe test case should be to operate the edge cloud in case of increasing network latency.",
+      "range": {
+        "startLine": 481,
+        "startChar": 17,
+        "endLine": 481,
+        "endChar": 69
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "91430d56_acb81d30",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 524,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "There is no precondition step 3.",
+      "range": {
+        "startLine": 524,
+        "startChar": 28,
+        "endLine": 524,
+        "endChar": 51
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7493206b_344a299d",
+        "filename": "docs/development/requirements/edge_cloud_test_case_reference_v2.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "This should be rather a test tool than a test case. A test case could be to operate the edge cloud in case of packet drops.",
+      "range": {
+        "startLine": 535,
+        "startChar": 17,
+        "endLine": 535,
+        "endChar": 76
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4b8aae56_5e0578cc",
+        "filename": "docs/development/requirements/index.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 4041
+      },
+      "writtenOn": "2019-05-14T09:35:46Z",
+      "side": 1,
+      "message": "We should not have version numbers in the file names.",
+      "range": {
+        "startLine": 15,
+        "startChar": 33,
+        "endLine": 15,
+        "endChar": 36
+      },
+      "revId": "2eb233208e93868a503396451164cf83d0cb23f4",
+      "serverId": "bbac25d2-bf60-4904-9ba8-a72fc000d6c5",
+      "unresolved": false
+    }
+  ]
+}
